@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf15359951592680" configfile="/web_student_tracker/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="login.xhtml" id="pf15364419744866" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf15364419744867" path="login.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="StudentControllerServlet" id="pf15364419744868" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf15364419744867" path="StudentControllerServlet"/>
+  <links id="pf15364419744867" target="pf15364419744868" source="pf15364419744866" outcome="success" redirect="true" fromaction="#{login.loginControl()}"/>
+</pageflow:Pageflow>
