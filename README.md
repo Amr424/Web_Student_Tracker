@@ -1,4 +1,4 @@
 
-Web_Student_Tracker
-#User Name = admin
-Password = admin
+Web_Student_Tracker====>>
+UserName = admin
+               Password = admin
